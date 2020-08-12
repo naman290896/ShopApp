@@ -1,0 +1,39 @@
+$mute-text: #9c9a9a;
+.itemDetailWrapper{
+    justify-content: space-evenly;
+    margin: 4em 0;
+    .productImage{
+        width: 40%;
+        img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    .detail{
+        width: 30%;
+        p{
+            margin:0;
+        }
+        .itemTitle, .itemPriceLabel{
+            color: $mute-text;
+        }
+        .itemCategory{
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .itemDescription{
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .itemPrice{
+            font-size: 16px;
+        }
+        .buyNowButton{
+            border: 0;
+            padding: 15px;
+            background-color: #01011d;
+            color: #fff;
+            float:right;
+        }
+    }
+}

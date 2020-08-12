@@ -1,0 +1,15 @@
+<div class="display-flex itemDetailWrapper" *ngFor="let item of itemArr">
+    <div class="productImage">
+        <img src="{{item.image}}"/>
+    </div>
+    <div class="detail">
+        <p class="itemTitle">{{item.title}}</p>
+        <p class="itemCategory"><b>{{item.category}}</b></p>
+        <p class="itemDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <p class="itemPriceLabel">Price Per Unit</p>
+        <div>
+            <span class="itemPrice"><b>{{item.price}}</b></span>
+            <button type="button" class="buyNowButton">BUY NOW</button>
+        </div>
+    </div>
+</div>

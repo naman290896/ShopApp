@@ -1,0 +1,55 @@
+<div class="content display-flex">
+    <div class="filterSection px-15">
+        <p class="filterByLabel">FILTER BY</p>
+        <div class="filterBy">
+            <button class="accordion">Collection</button>
+            <ul class="panel">
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+            </ul>
+        </div>
+        <div class="filterBy">
+            <button class="accordion">Color</button>
+            <ul class="panel">
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+            </ul>
+        </div>
+        <div class="filterBy">
+            <button class="accordion">Category</button>
+            <ul class="panel">
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+            </ul>
+        </div>
+    </div>
+    <div class="productSection px-15">
+        <div class="display-flex row-flex">
+            <div class="productCard" *ngFor="let item of itemArr">
+                <a routerLink="/ProductDetail/{{item.id}}">
+                    <img src="{{item.image}}" class="productImage" alt="{{item.image}}"/>
+                    <div class="productDetails display-flex">
+                        <div>
+                            <p><b>{{item.title}}</b></p>
+                            <p class="category">{{item.category}}</p>
+                        </div>
+                        <div>
+                            <p><b>{{item.price}}</b></p>
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="productRating">
+                        <i [class]="(item.rating == 0) ? 'far fa-star' : 'fas fa-star'"></i>
+                        <i [class]="(item.rating >= 2) ? 'fas fa-star' : 'far fa-star'"></i>
+                        <i [class]="(item.rating >= 3) ? 'fas fa-star' : 'far fa-star'"></i>
+                        <i [class]="(item.rating >= 4) ? 'fas fa-star' : 'far fa-star'"></i>
+                        <i [class]="(item.rating == 5) ? 'fas fa-star' : 'far fa-star'"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

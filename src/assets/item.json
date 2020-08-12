@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "Coombes",
+      "category": "LOUNGE",
+      "price": "$2600",
+      "image": "https://cdn.pixabay.com/photo/2014/12/21/23/42/wooden-575885_960_720.png",
+      "rating": 3
+    },
+    {
+      "id": 2,
+      "title": "Keeve Set",
+      "category": "TABLE & CHAIRS",
+      "price": "$590",
+	  "image": "https://cdn.pixabay.com/photo/2019/01/01/02/26/table-3906121_960_720.png",
+	  "rating": 4
+    },
+    {
+      "id": 3,
+      "title": "Nille",
+      "category": "ARMCHAIR",
+      "price": "$950",
+	  "image": "https://cdn.pixabay.com/photo/2017/08/19/03/07/sofa-2657203_960_720.png",
+	  "rating": 5
+    },
+	{
+      "id": 4,
+      "title": "Momo",
+      "category": "SHELVES",
+      "price": "$890",
+	  "image": "https://cdn.pixabay.com/photo/2019/08/24/15/16/furniture-4427846_960_720.png",
+	  "rating": 4
+    },
+	{
+      "id": 5,
+      "title": "Penemille",
+      "category": "CHAIR",
+      "price": "$120",
+	  "image": "https://cdn.pixabay.com/photo/2017/08/19/02/58/sofa-2657172_960_720.png",
+	  "rating": 4
+    }
+  ]
